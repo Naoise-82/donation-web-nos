@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -u tdd"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,9 @@
     "mongoose": "^5.11.17"
   },
   "devDependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
     "prettier": "^2.2.1"
   },
   "prettier": {
