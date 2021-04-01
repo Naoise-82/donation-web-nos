@@ -1,5 +1,5 @@
 {
-    "donationService": "YOUR SERVER HERE",
+    "donationService": "https://pacific-beyond-46687.herokuapp.com",
     "users": [
         {
             "firstName": "Homer",
