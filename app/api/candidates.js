@@ -50,7 +50,7 @@ const Candidates = {
     deleteOne: {
         auth: false,
         handler: async function (request, h) {
-            const candidate = await Candidate.remove({ _id: request.params.id });
+            const candidate = await Candidate.deleteOne({ _id: request.params.id });
             if (candidate) {
                 return { success: true };
             }
